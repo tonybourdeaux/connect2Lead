@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Connect2LeadsLeadProcess.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="theLogfilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:/Connect2LeadsLogs/Leadfeed_log.txt</Value>
+    </Setting>
+    <Setting Name="theConnectString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Allow User Variables=False;database=connect2leads;server=localhost;password=Tony8866478;User Id=root</Value>
+    </Setting>
+    <Setting Name="theLeadPostURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.virtualacd.biz/intelliqueue/system/listloader/ListLoader.cfm</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,8 @@
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2Leads\bin\Connect2Leads.dll
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2Leads\bin\Connect2Leads.pdb
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2Leads\obj\Debug\ResolveAssemblyReference.cache
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2Leads\obj\Debug\Connect2Leads.dll
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2Leads\obj\Debug\Connect2Leads.pdb
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2Leads\obj\Debug\Connect2Leads.Properties.Resources.resources
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2Leads\obj\Debug\GenerateResource.read.1.tlog
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2Leads\obj\Debug\GenerateResource.write.1.tlog

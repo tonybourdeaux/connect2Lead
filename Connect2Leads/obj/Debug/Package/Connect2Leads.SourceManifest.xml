@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <contentPath path="D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2Leads\obj\Debug\Package\PackageTmp" />
+  <setAcl path="D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2Leads\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2Leads\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

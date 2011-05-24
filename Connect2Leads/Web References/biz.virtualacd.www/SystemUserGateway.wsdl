@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="http://api.admin.intelliqueue" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns1="http://rpc.xml.coldfusion" xmlns:impl="http://api.admin.intelliqueue" targetNamespace="http://api.admin.intelliqueue" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://rpc.xml.coldfusion">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:complexType name="CFCInvocationException">
+        <xsd:sequence />
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getSystemUserAccountsResponse">
+    <wsdl:part name="getSystemUserAccountsReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="CFCInvocationException">
+    <wsdl:part name="fault" type="tns1:CFCInvocationException" />
+  </wsdl:message>
+  <wsdl:message name="getSystemUserAccountsRequest">
+    <wsdl:part name="username" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="SystemUserGateway">
+    <wsdl:operation name="getSystemUserAccounts" parameterOrder="username password">
+      <wsdl:input name="getSystemUserAccountsRequest" message="impl:getSystemUserAccountsRequest" />
+      <wsdl:output name="getSystemUserAccountsResponse" message="impl:getSystemUserAccountsResponse" />
+      <wsdl:fault name="CFCInvocationException" message="impl:CFCInvocationException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SystemUserGateway.cfcSoapBinding" type="impl:SystemUserGateway">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="getSystemUserAccounts">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getSystemUserAccountsRequest">
+        <wsdlsoap:body use="encoded" namespace="http://api.admin.intelliqueue" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getSystemUserAccountsResponse">
+        <wsdlsoap:body use="encoded" namespace="http://api.admin.intelliqueue" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+      <wsdl:fault name="CFCInvocationException">
+        <wsdlsoap:fault use="encoded" name="CFCInvocationException" namespace="http://api.admin.intelliqueue" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SystemUserGatewayService">
+    <wsdl:port name="SystemUserGateway.cfc" binding="impl:SystemUserGateway.cfcSoapBinding">
+      <wsdlsoap:address location="http://www.virtualacd.biz/intelliqueue/admin/api/SystemUserGateway.cfc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

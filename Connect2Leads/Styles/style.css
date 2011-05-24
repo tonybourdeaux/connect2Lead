@@ -1,0 +1,51 @@
+body {padding:0; margin:0;}
+body, td, input, textarea{
+	font-size:11px;
+    font-family:Tahoma;
+	color:#787465;
+	line-height:15px;
+	vertical-align:top;
+	padding:0px;
+}
+
+br{font-size:10px}
+table{border:0px; border-collapse:collapse;	}
+
+a{color:#008BCD; text-decoration:underline} 
+a:hover{text-decoration:none}
+
+ul{margin:0; padding:3; list-style:none; line-height:20px}
+li{background:url(images/1_z2.gif) no-repeat bottom left;}
+li a{color:#008BCD; background:url(images/1_z1.gif)  center left no-repeat; margin:0px; padding-left:10px; text-decoration:none} 
+li a:hover{color:#D52D00;} 
+
+span { color:#008BCD} 
+
+.set a{color:#D52D00; font-weight:bold; font-size:9px; background:url(images/1_z3.gif)  center left no-repeat; margin:0px; padding-left:10px; text-decoration:none}  
+
+.set1{ color:#3A403C; line-height:15px}
+.set1 strong{ color:#D52D00; text-transform:uppercase} 
+.set1 span{ color:#D52D00;} 
+.set1 b{ color:#738A00; text-transform:none} 
+
+.set2 div{ height:18px; width:227px}
+.set2 div div{ width:auto}
+.set2 a{ color:#787465; text-decoration:none}
+.set2 a:hover{color:#008BCD; text-decoration:none}
+ 
+.footer{color:#787465; font-size:9px;} 
+.footer a {color:#787465; font-size:9px; text-decoration:none}
+.footer a:hover{ text-decoration:underline} 
+
+.more{background:url(images/1_z4.gif)  center left no-repeat; padding-left:9px; background-position:0 4px; color:#D52D00; font-size:9px; text-decoration:none; font-weight:bold}
+.more:hover{ text-decoration:underline}
+
+
+input{
+   padding-left:5px;
+    margin-left: 0px;
+}
+textarea{
+   padding-left:5px;
+   width:198px; height:98px;
+   overflow:auto}

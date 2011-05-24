@@ -1,0 +1,6 @@
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2LeadsLeadProcess\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2LeadsLeadProcess\bin\Debug\Connect2LeadsLeadProcess.exe.config
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2LeadsLeadProcess\bin\Debug\Connect2LeadsLeadProcess.exe
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2LeadsLeadProcess\bin\Debug\Connect2LeadsLeadProcess.pdb
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2LeadsLeadProcess\obj\x86\Debug\Connect2LeadsLeadProcess.exe
+D:\Connect2Leads_Project\Projects\Connect2Leads\Connect2LeadsLeadProcess\obj\x86\Debug\Connect2LeadsLeadProcess.pdb
